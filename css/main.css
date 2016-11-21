@@ -70,9 +70,11 @@ p {
 
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-      width: 65%;
-      height: 40%;
+      width: auto;
+      height: auto;
       margin: auto;
+      max-width: 200px;
+      max-width: 200px;
   }
 
 .prj-img {
