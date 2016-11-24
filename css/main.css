@@ -68,19 +68,28 @@ p {
   font-size: 24px;
 }
 
-
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
       width: auto;
       height: auto;
       margin: auto;
       max-width: 350px;
-      max-width: 350px;
+      max-height: 350px;
+
   }
 
 .prj-img {
   width: 175px;
-  height: 125px;
+  height: 250px;
+}
+
+.photo {
+  height: 735px;
+}
+
+.dots {
+  margin-top: 50px;
+  position: relative;
 }
 
 /*------------------Utilities---------------------*/
@@ -442,7 +451,6 @@ hr.line {
     width: 100%;
     max-width: 440px;
 }
-
 
 #invite {
   background: #f2f2f2;
